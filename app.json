@@ -46,12 +46,12 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "postgres://tkvisyvm:K_zczpHtDSrCLEjUtaH6y0z_boU_D0EV@snuffleupagus.db.elephantsql.com/tkvisyvm"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5393842751"
+         "value": "6079943111"
      },
 
       "STRING_SESSION": {
@@ -69,7 +69,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "TaigaTest_Bot"
+         "value": "AloneXRobot"
       },
 
       "BOT_ID": {
@@ -79,17 +79,17 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "zer0_tw0"
+         "value": "ALONE_WAS_BOT"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "rias1Supportgroup"
+         "value": "AloneXBots"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://bv3k02:bv3k02@cluster0.o45hibs.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -102,12 +102,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001659305006"
+         "value": "-1001603822916"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001659305006"
+         "value": "-1001603822916"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -122,14 +122,14 @@
 
       "OPENWEATHERMAP_ID": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-        "value": "",
+        "value": "4ef58bf72b2fce277b982d30e38a18e0",
         "required": false
       },
 
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5214808179"
+         "value": "6079943111"
      },
       "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -148,22 +148,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "6079943111"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": ""
+         "value": "6079943111"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "6079943111"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "6079943111"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -201,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://t.me/ALONE_WAS_BOT"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -214,7 +214,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": ""
+         "value": "CAACAgQAAxkBAAPDZU6AIWHwlbgqtyfyxrtIjlopzpUAAsAAA4Lr8hgTAbNHsUvtLx4E"
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
@@ -224,7 +224,7 @@
       "REM_BG_API_KEY": {
          "description": "Required for remove background editing. Get your's from https://www.remove.bg/api#remove-background/",
          "required": false,
-         "value": ""
+         "value": "iXkrY3xWBKvi6dJcfCLrRxp5"
       }
       
    }
